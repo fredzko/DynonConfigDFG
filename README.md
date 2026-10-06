@@ -1,3 +1,9 @@
+>[!IMPORTANT]
+>This is NO official guide published by Dynon, EasyVFR or other official sources. This is meerly a collection of trial and error results intended to help those, that want to taylor the nav map to their needs. It is partially derived from the dfg file publicly available on the [EasyVFR website](https://support.easyvfr4.aero/help/european-map-styling-for-dynon-skyview) and will be updated in the future, once new things have been tried out.
+
+>[!NOTE]
+>This is a work in progress.
+
 # Introduction
 The .dfg config file can be loaded into a Dynon Skyview Display Device to modify user settings and how the screen renders different airspaces on the map. The map rendering options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.
 
