@@ -21,17 +21,22 @@ airspace_ctr={
 		}
 ```
 ## Colors
-Colors are formatted as hex RGB color with alpha channel in RRGGBBAA format, where AA=00 equals fully transparent and AA=FF fully opaque.  
+Colors are formatted as hex RGB color with alpha channel in RRGGBBAA (red, green, blue, alpha) format, where AA=00 equals fully transparent and AA=FF fully opaque.  
 ## Styles
 ### MAP_BLING_DRAW_STYLE_FILLED
 `MAP_BLING_DRAW_STYLE_FILLED` is a filled airspace, such as a CTR and RMZ in the european style maps.
 `color0` is the border color  
-`color1` is the fill color (often 50% = 0x80 transparent)  
+`color1` is the fill color (often alpha = 0x80)  
 `color2` is the text color, in which altitude constraints are shown  
-`color3` is the not used (?)
+`width0` is the border width
 ### MAP_BLING_DRAW_STYLE_SOLID_FADE
-`MAP_BLING_DRAW_STYLE_SOLID_FADE` is an airspace such as class C in the european style maps that features a solid contour and a shaded inner border.
-`color0` is the border color  
-`color1` is the fill color (?)  
+`MAP_BLING_DRAW_STYLE_SOLID_FADE` is an airspace such as class C in the european style maps that features a solid contour and a faded (partially tranparent) inner border.  
+`color0` is the solid border color  
+`color1` is the faded inner border color (often alpha = 0x50)  
+`width0` is the solid border width (that uses color0)  
+`width1` is the faded border width (that uses color1)  
+
+
+
 
 
