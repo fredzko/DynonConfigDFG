@@ -65,8 +65,8 @@ Colors are formatted as hex RGB color with alpha channel in RRGGBBAA (red, green
 ### MAP_BLING_DRAW_STYLE_SOLID
 ### MAP_BLING_DRAW_STYLE_SOLID_TICKS
 Solid tickmarks are drawn only on the inside (?) of the outline. For tick marks that cross the outline see [...UNCLIPPED_TICKS](#map_bling_draw_style_solid_unclipped_ticks).
-
 ### MAP_BLING_DRAW_STYLE_SOLID_UNCLIPPED_TICKS
+Unclipped ticks are tick markes that cross the line/outline.  
 ### MAP_BLING_DRAW_STYLE_SOLID_FADE
 is an airspace such as class C in the european style maps that features a solid contour and a faded (partially tranparent) inner border.  
 `color0` is the solid border color  
