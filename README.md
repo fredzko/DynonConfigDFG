@@ -23,6 +23,42 @@ airspace_ctr={
 		style=MAP_BLING_DRAW_STYLE_FILLED
 		}
 ```
+available airspaces/items are:  
+
+`tfr_active`  
+`tfr_upcoming`  
+`tfr_stadium_active`  
+`tfr_stadium_upcoming`  
+`airspace_class_a`  
+`airspace_class_b2`  
+`airspace_class_tma`  
+`airspace_class_mtma`  
+`airspace_class_c`  
+`airspace_cta`  
+`airspace_ctr`  
+`airspace_class_d2`  
+`airspace_class_e`  
+`airspace_tiz`  
+`airspace_tia`  
+`fir`  
+`unknown_alert2`  
+`training`  
+`alert`  
+`caution`  
+`warning2`  
+`danger`  
+`moa`  
+`restricted`  
+`prohibited`  
+`road0`  
+`road1`  
+`river`  
+`railroad`  
+`metro`  
+`forest`  
+`no_terr`  
+`terr`  
+`wx_overlay`  
 ## Colors
 Colors are formatted as hex RGB color with alpha channel in RRGGBBAA (red, green, blue, alpha) format, where AA=00 equals fully transparent and AA=FF fully opaque.  
 ## Styles
