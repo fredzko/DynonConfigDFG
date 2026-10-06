@@ -66,7 +66,7 @@ Colors are formatted as hex RGB color with alpha channel: RRGGBBAA (red, green, 
 `cycle` creates a dashed line repeating the pattern after n pixles  
 `fraction` sets the gap size of the dashed line (gap = fraction x cycle)  
 ### MAP_BLING_DRAW_STYLE_SOLID_TICKS
-Solid tickmarks are drawn only on the inside of the outline.
+Solid tickmarks are drawn only on the inside of the outline.  
 `color0` is the border color  
 ### MAP_BLING_DRAW_STYLE_SOLID_UNCLIPPED_TICKS
 Unclipped ticks are tick markes that cross the line/outline.  
@@ -78,7 +78,7 @@ is an airspace such as class C in the european style maps that features a solid 
 `width0` is the solid border width (that uses color0)  
 `width1` is the faded border width (that uses color1)  
 ### MAP_BLING_DRAW_STYLE_FILLED
-is a filled airspace, such as a CTR and RMZ in the european style maps.
+is a filled airspace, such as a CTR and RMZ in the european style maps.  
 `color0` is the border color  
 `color1` is the fill color (often alpha = 0x80)  
 `color2` is the text color, in which altitude constraints are shown  
