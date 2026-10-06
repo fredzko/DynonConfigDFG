@@ -27,5 +27,8 @@ Colors are formatted as hex RGB color with alpha channel in RRGGBBAA format, whe
 `MAP_BLING_DRAW_STYLE_FILLED` is a filled airspace, such as a CTR and RMZ in the european style maps.
 `color0` is the border color, in the above example an opaque dark blue `#0012B3FF`  
 `color1` is the fill color, in the above example a 50% transparent orange `E8370050`  
-`color2` is the text color, in which altitude constraints are shown, here opaque orange `E83700FF`
+`color2` is the text color, in which altitude constraints are shown, here opaque orange `E83700FF`  
 `color3` is the not used (?) here set to opaque white `FFFFFFFF`  
+### MAP_BLING_DRAW_STYLE_SOLID_FADE
+`MAP_BLING_DRAW_STYLE_SOLID_FADE` is a non-filled airspace such as C/D (non-CTR) in the european style maps.  
+
