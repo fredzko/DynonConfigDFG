@@ -2,7 +2,8 @@
 The .dfg config file can be loaded into a Dynon Skyview Display Device to modify how the screen renders different airspaces on the map. The options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.
 
 # dfg file format
-The entire *.dfg file is contained inside the curly braces of `map_bling={}`  
+The entire *.dfg file is contained inside the curly braces of  
+`map_bling={}`  
 Each item is formatted as follows:  
 ```
 airspace_ctr={
@@ -19,3 +20,9 @@ airspace_ctr={
 		style=MAP_BLING_DRAW_STYLE_FILLED
 		}
 ```
+## Colors
+Colors are formatted as hex RGB color with alpha channel in RRGGBBAA format, where AA=00 equals fully transparent and AA=FF fully opaque.  
+## Styles
+### MAP_BLING_DRAW_STYLE_FILLED
+`MAP_BLING_DRAW_STYLE_FILLED` is a filled airspace, such as a CTR and RMZ in the european style maps.
+`color0` is the border color, in the above example an opaque dark blue `#0012B3`
